@@ -1,0 +1,49 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.top {
+  background-color: cornflowerblue;
+}
+
+.logout {
+  margin-left: 800px;
+}
+
+.logout:hover {
+  color: black;
+  background-color: darkorange;
+}
+
+th,
+td {
+  border: 1px solid #8aea87;
+  text-align: center;
+  padding: 8px;
+  background-color: aqua;
+}
+
+th {
+  background-color: yellow;
+}
+
+button {
+  color: green;
+  padding: 5px 10px;
+  margin: 5px;
+  background-color: #dddddd;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #cccccc;
+}
+
+@media (max-width: 767px) {
+  table {
+    width: 100%;
+  }
+}
